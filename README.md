@@ -2,7 +2,7 @@
   <img src="https://www.salestouch.io/images/icon.png" alt="SalesTouch" width="80" />
 </p>
 
-<h1 align="center">SalesTouch</h1>
+<h1 align="center">SalesTouch - The Linkedin MCP</h1>
 
 <p align="center">
   <strong>Your AI prospecting copilot — right inside Claude.</strong><br/>
@@ -33,19 +33,7 @@ No more tab-switching between LinkedIn, your CRM, and ChatGPT. Just tell Claude 
 
 SalesTouch handles the research, enrichment, scoring, and message drafting. **You review and send.**
 
-<br/>
-
-## What you can do
-
-| | Capability | Description |
-|---|---|---|
-| **Search** | Lead search & enrichment | Find prospects by role, industry, company size, location. Enrich with LinkedIn data. |
-| **Score** | Smart lead scoring | Prioritize leads with import-aware scoring, offer-specific lexical rules, and company size targeting. |
-| **Draft** | LinkedIn message drafting | 3 personalized message variants per prospect. Not generic. Not spammy. |
-| **Import** | LinkedIn & Sales Nav imports | Pull leads from searches, post engagers, groups, profile viewers. |
-| **Act** | LinkedIn actions | Send messages, connection requests, post, comment, react — all from Claude. |
-| **Plan** | Mission workflows | Structured prospecting sessions with goals and progress tracking. |
-| **Sell** | Offer management | Create and manage sales offers linked to missions. |
+SalesTouch is the ultimate Linkedin MCP for Claude and Codex.
 
 <br/>
 
