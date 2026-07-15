@@ -1,7 +1,7 @@
 {
   "name": "salestouch",
   "version": "0.5.1",
-  "description": "Claude plugin for SalesTouch prospecting tools, skills, and MCP workflows.",
+  "description": "Text-only SalesTouch MCP plugin for LinkedIn workflows and stateless scraping.",
   "author": {
     "name": "SalesTouch",
     "email": "contact@salestouch.io",
@@ -10,7 +10,7 @@
   "homepage": "https://www.salestouch.io/docs",
   "repository": "https://github.com/antoineDsh/salestouch",
   "license": "UNLICENSED",
-  "keywords": ["sales", "linkedin", "crm", "prospecting", "mcp"],
+  "keywords": ["sales", "linkedin", "prospecting", "mcp"],
   "hooks": "./hooks/hooks.json",
   "mcpServers": "./.mcp.json"
 }
