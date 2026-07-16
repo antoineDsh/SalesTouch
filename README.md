@@ -2,7 +2,7 @@
 
 SalesTouch connects Claude to LinkedIn through an OAuth-protected remote MCP server.
 
-The current plugin is text-only. It provides LinkedIn account, conversation, lookup, outreach, engagement, publishing, queue, and stateless scraping tools.
+The plugin provides LinkedIn account, conversation, lookup, outreach, engagement, publishing, queue, and stored extraction tools.
 
 ## Install
 

@@ -15,8 +15,6 @@ SalesTouch is a text-only remote MCP plugin that connects Claude to LinkedIn thr
 - Extract people from LinkedIn searches, Sales Navigator searches, post reactions, post comments, groups, profile viewers, and company page viewers.
 - Read large stored extraction results page by page.
 
-The plugin does not expose CRM leads, drafts, missions, offers, routines, imports, scoring, MCP resources, prompts, or embedded app interfaces.
-
 ## Install
 
 ### Claude Desktop or Cowork

@@ -1,7 +1,7 @@
 {
   "name": "salestouch",
   "version": "0.5.1",
-  "description": "Text-only SalesTouch MCP plugin for LinkedIn workflows and stateless scraping.",
+  "description": "Text-only SalesTouch MCP plugin for LinkedIn workflows and stored extraction results.",
   "author": {
     "name": "SalesTouch",
     "email": "contact@salestouch.io",
