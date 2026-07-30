@@ -3,9 +3,9 @@
 ![Version 0.5.7](https://img.shields.io/badge/version-0.5.7-111827)
 ![License MIT](https://img.shields.io/badge/license-MIT-16a34a)
 
-Turn your AI agent into a LinkedIn prospecting operator. SalesTouch helps it
-find and qualify the right people, start conversations, manage follow-ups, and
-turn outreach into real opportunities. This Claude plugin connects to the
+SalesTouch is an AI-native GTM prospecting platform. It helps agents research
+and qualify prospects, build audiences, start conversations, manage follow-ups,
+and execute controlled LinkedIn outreach. This Claude plugin connects to the
 OAuth-protected SalesTouch remote server and exposes account, conversation,
 lookup, outreach, engagement, publishing, queue, and paginated extraction
 tools.
