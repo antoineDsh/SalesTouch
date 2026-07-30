@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.8 - 2026-07-30
+
+- Position SalesTouch as an AI-native GTM prospecting platform across MCP and
+  marketplace metadata.
+- Prepare the OpenAI submission under Business & Operations with an accurate
+  standalone-product and third-party integration disclosure.
+
 ## 0.5.7 - 2026-07-30
 
 - Add the OpenAI MCP plugin submission pack, reviewer fixtures, and portal test cases.
