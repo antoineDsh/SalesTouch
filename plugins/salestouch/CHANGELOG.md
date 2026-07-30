@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.10 - 2026-07-30
+
+- Align MCP safety annotations with actual behavior: LinkedIn and scrape reads
+  are open-world, additive outreach actions are non-destructive, and only queue
+  cancellation is destructive.
+
 ## 0.5.9 - 2026-07-30
 
 - Publish the `status.include` input as one canonical array shape so ChatGPT
