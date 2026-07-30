@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.3 - 2026-07-30
+
+- Remove the unpublished development-only package from the public marketplace repository.
+- Add the LinkedIn independence disclaimer to every public directory manifest.
+
 ## 0.5.2 - 2026-07-30
 
 - Publish the canonical SalesTouch server identity, icons, strict tool schemas, annotations, structured outputs, and normalized errors.

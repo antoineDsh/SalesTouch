@@ -6,12 +6,12 @@
   },
   "metadata": {
     "description": "Independent SalesTouch MCP distribution for LinkedIn workflow automation. Not affiliated with, endorsed by, or sponsored by LinkedIn.",
-    "version": "0.5.2"
+    "version": "0.5.3"
   },
   "plugins": [
     {
       "name": "salestouch",
-      "version": "0.5.2",
+      "version": "0.5.3",
       "description": "SalesTouch is an independent MCP server for automating LinkedIn workflows from AI agents. SalesTouch is not affiliated with, endorsed by, or sponsored by LinkedIn.",
       "author": {
         "name": "SalesTouch"
@@ -25,22 +25,6 @@
       ],
       "source": "./plugins/salestouch",
       "strict": true
-    },
-    {
-      "name": "salestouch-dev",
-      "version": "0.0.0-dev",
-      "description": "Local dev variant — points at your ngrok/cloudflared tunnel. Install for end-to-end testing of local changes in Claude.",
-      "author": {
-        "name": "SalesTouch"
-      },
-      "homepage": "https://www.salestouch.io",
-      "keywords": [
-        "sales",
-        "dev",
-        "mcp"
-      ],
-      "source": "./plugins/salestouch-dev",
-      "strict": false
     }
   ]
 }

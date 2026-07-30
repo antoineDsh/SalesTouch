@@ -3,7 +3,7 @@
   "name": "io.salestouch/salestouch",
   "title": "SalesTouch",
   "description": "Independent MCP server for automating LinkedIn workflows from AI agents. Not affiliated with, endorsed by, or sponsored by LinkedIn.",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "websiteUrl": "https://www.salestouch.io",
   "repository": {
     "url": "https://github.com/antoineDsh/salestouch",

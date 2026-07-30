@@ -1,6 +1,6 @@
 # SalesTouch
 
-![Version 0.5.2](https://img.shields.io/badge/version-0.5.2-111827)
+![Version 0.5.3](https://img.shields.io/badge/version-0.5.3-111827)
 ![License MIT](https://img.shields.io/badge/license-MIT-16a34a)
 
 SalesTouch is an independent MCP server for automating LinkedIn workflows from
