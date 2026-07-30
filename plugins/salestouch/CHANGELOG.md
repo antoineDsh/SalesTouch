@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.9 - 2026-07-30
+
+- Publish the `status.include` input as one canonical array shape so ChatGPT
+  can call multi-section status requests without an ambiguous union.
+
 ## 0.5.8 - 2026-07-30
 
 - Position SalesTouch as an AI-native GTM prospecting platform across MCP and
