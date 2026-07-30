@@ -1,6 +1,6 @@
 # SalesTouch
 
-![Version 0.5.6](https://img.shields.io/badge/version-0.5.6-111827)
+![Version 0.5.7](https://img.shields.io/badge/version-0.5.7-111827)
 ![License MIT](https://img.shields.io/badge/license-MIT-16a34a)
 
 Turn your AI agent into a LinkedIn prospecting operator. SalesTouch helps it
@@ -105,6 +105,7 @@ and source data. SalesTouch does not bypass LinkedIn safeguards.
 - [Support](../../SUPPORT.md)
 - [Security](../../SECURITY.md)
 - [Review test cases](../../REVIEW_TESTS.md)
+- [OpenAI plugin submission](../../OPENAI_PLUGIN_SUBMISSION.md)
 - [Claude directory submission](../../CLAUDE_DIRECTORY_SUBMISSION.md)
 - [Documentation](https://www.salestouch.io/docs)
 - [Privacy](https://www.salestouch.io/privacy)
