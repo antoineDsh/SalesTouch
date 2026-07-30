@@ -1,8 +1,10 @@
 # Set up SalesTouch
 
-SalesTouch is an independent MCP server for automating LinkedIn workflows from
-AI agents. SalesTouch is not affiliated with, endorsed by, or sponsored by
-LinkedIn.
+Turn your AI agent into a LinkedIn prospecting operator. SalesTouch helps it
+find and qualify the right people, start conversations, manage follow-ups, and
+turn outreach into real opportunities.
+
+SalesTouch is not affiliated with, endorsed by, or sponsored by LinkedIn.
 
 ## Requirements
 

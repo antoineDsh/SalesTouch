@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.4 - 2026-07-30
+
+- Rewrite public descriptions around the prospecting outcomes SalesTouch delivers for AI agents.
+
 ## 0.5.3 - 2026-07-30
 
 - Remove the unpublished development-only package from the public marketplace repository.

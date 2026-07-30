@@ -1,12 +1,13 @@
 # SalesTouch
 
-![Version 0.5.3](https://img.shields.io/badge/version-0.5.3-111827)
+![Version 0.5.4](https://img.shields.io/badge/version-0.5.4-111827)
 ![License MIT](https://img.shields.io/badge/license-MIT-16a34a)
 
-SalesTouch is an independent MCP server for automating LinkedIn workflows from
-AI agents. It provides account, conversation, lookup, outreach, engagement,
-publishing, queue, and paginated extraction tools through an OAuth-protected
-remote endpoint.
+Turn your AI agent into a LinkedIn prospecting operator. SalesTouch helps it
+find and qualify the right people, start conversations, manage follow-ups, and
+turn outreach into real opportunities. It provides account, conversation,
+lookup, outreach, engagement, publishing, queue, and paginated extraction tools
+through an OAuth-protected remote endpoint.
 
 SalesTouch is not affiliated with, endorsed by, or sponsored by LinkedIn.
 

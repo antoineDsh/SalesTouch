@@ -1,12 +1,14 @@
 # SalesTouch
 
-![Version 0.5.3](https://img.shields.io/badge/version-0.5.3-111827)
+![Version 0.5.4](https://img.shields.io/badge/version-0.5.4-111827)
 ![License MIT](https://img.shields.io/badge/license-MIT-16a34a)
 
-SalesTouch is an independent MCP server for automating LinkedIn workflows from
-AI agents. This Claude plugin connects to the OAuth-protected SalesTouch remote
-server and exposes account, conversation, lookup, outreach, engagement,
-publishing, queue, and paginated extraction tools.
+Turn your AI agent into a LinkedIn prospecting operator. SalesTouch helps it
+find and qualify the right people, start conversations, manage follow-ups, and
+turn outreach into real opportunities. This Claude plugin connects to the
+OAuth-protected SalesTouch remote server and exposes account, conversation,
+lookup, outreach, engagement, publishing, queue, and paginated extraction
+tools.
 
 SalesTouch is not affiliated with, endorsed by, or sponsored by LinkedIn.
 
