@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.6 - 2026-07-30
+
+- Add the Claude Connectors Directory and community plugin marketplace submission pack.
+- Expand reviewer guidance across all 26 MCP tools with dedicated test-workspace safeguards.
+- Link the public submission and compliance material from both plugin READMEs.
+
 ## 0.5.5 - 2026-07-30
 
 - Keep public listing descriptions focused on SalesTouch capabilities and prospecting value.
