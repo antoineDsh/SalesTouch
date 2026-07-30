@@ -2,7 +2,7 @@
   "name": "salestouch",
   "displayName": "SalesTouch",
   "version": "0.5.2",
-  "description": "Independent LinkedIn automation for AI agents through the SalesTouch MCP server.",
+  "description": "SalesTouch is an independent MCP server for automating LinkedIn workflows from AI agents. Not affiliated with, endorsed by, or sponsored by LinkedIn.",
   "author": {
     "name": "SalesTouch",
     "email": "support@salestouch.io"
