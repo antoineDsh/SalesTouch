@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.7 - 2026-07-30
+
+- Add the OpenAI MCP plugin submission pack, reviewer fixtures, and portal test cases.
+- Align open-world safety annotations with external write behavior.
+- Synchronize the hosted server and every public distribution version surface.
+
 ## 0.5.6 - 2026-07-30
 
 - Add the Claude Connectors Directory and community plugin marketplace submission pack.
