@@ -1,6 +1,6 @@
 # SalesTouch
 
-![Version 0.5.4](https://img.shields.io/badge/version-0.5.4-111827)
+![Version 0.5.5](https://img.shields.io/badge/version-0.5.5-111827)
 ![License MIT](https://img.shields.io/badge/license-MIT-16a34a)
 
 Turn your AI agent into a LinkedIn prospecting operator. SalesTouch helps it

@@ -5,14 +5,14 @@
     "email": "support@salestouch.io"
   },
   "metadata": {
-    "description": "Give AI agents the LinkedIn tools to find, qualify, engage, and follow up with prospects. Not affiliated with, endorsed by, or sponsored by LinkedIn.",
-    "version": "0.5.4"
+    "description": "Give AI agents the LinkedIn tools to find, qualify, engage, and follow up with prospects.",
+    "version": "0.5.5"
   },
   "plugins": [
     {
       "name": "salestouch",
-      "version": "0.5.4",
-      "description": "Turn your AI agent into a LinkedIn prospecting operator. Find and qualify the right people, start conversations, manage follow-ups, and turn outreach into real opportunities. SalesTouch is not affiliated with, endorsed by, or sponsored by LinkedIn.",
+      "version": "0.5.5",
+      "description": "Turn your AI agent into a LinkedIn prospecting operator. Find and qualify the right people, start conversations, manage follow-ups, and turn outreach into real opportunities.",
       "author": {
         "name": "SalesTouch"
       },

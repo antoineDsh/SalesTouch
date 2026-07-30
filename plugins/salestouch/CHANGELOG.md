@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.5 - 2026-07-30
+
+- Keep public listing descriptions focused on SalesTouch capabilities and prospecting value.
+
 ## 0.5.4 - 2026-07-30
 
 - Rewrite public descriptions around the prospecting outcomes SalesTouch delivers for AI agents.

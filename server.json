@@ -3,7 +3,7 @@
   "name": "io.salestouch/salestouch",
   "title": "SalesTouch",
   "description": "Give AI agents the LinkedIn tools to find, qualify, engage, and follow up with prospects.",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "websiteUrl": "https://www.salestouch.io",
   "repository": {
     "url": "https://github.com/antoineDsh/salestouch",
