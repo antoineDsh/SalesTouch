@@ -1,8 +1,8 @@
 # Set up SalesTouch
 
-Turn your AI agent into a LinkedIn prospecting operator. SalesTouch helps it
-find and qualify the right people, start conversations, manage follow-ups, and
-turn outreach into real opportunities.
+SalesTouch is an AI-native GTM prospecting platform. It helps agents research
+and qualify prospects, build audiences, start conversations, manage follow-ups,
+and execute controlled LinkedIn outreach.
 
 SalesTouch is not affiliated with, endorsed by, or sponsored by LinkedIn.
 
