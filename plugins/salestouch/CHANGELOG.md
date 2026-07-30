@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.2 - 2026-07-30
+
+- Publish the canonical SalesTouch server identity, icons, strict tool schemas, annotations, structured outputs, and normalized errors.
+- Add MCP Registry, Cursor, Smithery discovery, and OpenAI verification metadata.
+- Add public setup, workflow, troubleshooting, support, security, review, and MIT distribution documentation.
+
 ## 0.5.1 - 2026-04-23
 
 - Add the `routine_start` / `routine_next` / `routine_complete` MCP tools so Claude can open a daily prospecting routine with a stats dashboard (daily goal, XP, level, streak), iterate leads one at a time through phase 1 (replies awaiting) then phase 2 (prospection, score > 50: send draft → first message → invite → enrich), and wrap up with XP, achievements, and a recap.

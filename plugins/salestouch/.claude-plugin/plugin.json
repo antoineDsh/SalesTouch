@@ -1,15 +1,15 @@
 {
   "name": "salestouch",
-  "version": "0.5.1",
-  "description": "Text-only SalesTouch MCP plugin for LinkedIn workflows and stored extraction results.",
+  "version": "0.5.2",
+  "description": "SalesTouch is an independent MCP server for automating LinkedIn workflows from AI agents.",
   "author": {
     "name": "SalesTouch",
-    "email": "contact@salestouch.io",
+    "email": "support@salestouch.io",
     "url": "https://www.salestouch.io"
   },
   "homepage": "https://www.salestouch.io/docs",
   "repository": "https://github.com/antoineDsh/salestouch",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "keywords": ["sales", "linkedin", "prospecting", "mcp"],
   "hooks": "./hooks/hooks.json",
   "mcpServers": "./.mcp.json"
