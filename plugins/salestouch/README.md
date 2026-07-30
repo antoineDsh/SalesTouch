@@ -105,6 +105,7 @@ and source data. SalesTouch does not bypass LinkedIn safeguards.
 - [Support](../../SUPPORT.md)
 - [Security](../../SECURITY.md)
 - [Review test cases](../../REVIEW_TESTS.md)
+- [Claude directory submission](../../CLAUDE_DIRECTORY_SUBMISSION.md)
 - [Documentation](https://www.salestouch.io/docs)
 - [Privacy](https://www.salestouch.io/privacy)
 - [Terms](https://www.salestouch.io/terms)
