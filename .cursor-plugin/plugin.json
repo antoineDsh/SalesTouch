@@ -1,0 +1,19 @@
+{
+  "name": "salestouch",
+  "displayName": "SalesTouch",
+  "version": "0.5.2",
+  "description": "Independent LinkedIn automation for AI agents through the SalesTouch MCP server.",
+  "author": {
+    "name": "SalesTouch",
+    "email": "support@salestouch.io"
+  },
+  "publisher": "SalesTouch",
+  "homepage": "https://www.salestouch.io",
+  "repository": "https://github.com/antoineDsh/salestouch",
+  "license": "MIT",
+  "logo": "https://www.salestouch.io/images/icon.png",
+  "keywords": ["salestouch", "sales", "prospecting", "automation", "mcp"],
+  "category": "business",
+  "tags": ["sales", "prospecting", "automation"],
+  "mcpServers": "./.mcp.json"
+}

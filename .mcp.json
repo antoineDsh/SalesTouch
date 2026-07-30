@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "salestouch": {
+      "url": "https://www.salestouch.io/api/mcp"
+    }
+  }
+}
