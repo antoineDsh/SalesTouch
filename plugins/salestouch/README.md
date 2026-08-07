@@ -1,13 +1,13 @@
 # SalesTouch
 
-![Version 0.5.10](https://img.shields.io/badge/version-0.5.10-111827)
+![Version 0.6.0](https://img.shields.io/badge/version-0.6.0-111827)
 ![License MIT](https://img.shields.io/badge/license-MIT-16a34a)
 
 SalesTouch is an AI-native GTM prospecting platform. It helps agents research
 and qualify prospects, build audiences, start conversations, manage follow-ups,
 and execute controlled LinkedIn outreach. This Claude plugin connects to the
 OAuth-protected SalesTouch remote server and exposes account, conversation,
-lookup, outreach, engagement, publishing, queue, and paginated extraction
+lookup, outreach, engagement, publishing, durable scheduling, queue, and paginated extraction
 tools.
 
 SalesTouch is not affiliated with, endorsed by, or sponsored by LinkedIn.
@@ -61,6 +61,7 @@ only the scoped SalesTouch OAuth authorization.
 - Inspect invitation follow-ups and queued message state.
 - Send messages, invitations, and post-acceptance follow-ups.
 - Like or comment on posts and publish posts.
+- Schedule any LinkedIn write with `scheduled_for` and inspect its durable queue state.
 - Cancel queued SalesTouch actions.
 - Extract people from searches, post engagement, groups, profile viewers, and
   company page viewers.

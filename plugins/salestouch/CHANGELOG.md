@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.6.0 - 2026-08-07
+
+- Add durable `scheduled_for` support to LinkedIn messages, invitations,
+  invite-then-message workflows, likes, comments, and publications.
+- Reconnect sleeping credential-based LinkedIn accounts when scheduled actions
+  become due while keeping manual reconnect failures visible.
+- Promote long-term scheduled actions into the Inngest execution horizon and
+  prioritize explicit schedules over automatically queued work.
+
 ## 0.5.10 - 2026-07-30
 
 - Align MCP safety annotations with actual behavior: LinkedIn and scrape reads

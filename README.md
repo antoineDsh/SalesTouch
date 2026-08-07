@@ -1,12 +1,12 @@
 # SalesTouch
 
-![Version 0.5.10](https://img.shields.io/badge/version-0.5.10-111827)
+![Version 0.6.0](https://img.shields.io/badge/version-0.6.0-111827)
 ![License MIT](https://img.shields.io/badge/license-MIT-16a34a)
 
 SalesTouch is an AI-native GTM prospecting platform. It helps agents research
 and qualify prospects, build audiences, start conversations, manage follow-ups,
 and execute controlled LinkedIn outreach. It provides account, conversation,
-lookup, outreach, engagement, publishing, queue, and paginated extraction tools
+lookup, outreach, engagement, publishing, durable scheduling, queue, and paginated extraction tools
 through an OAuth-protected remote endpoint.
 
 SalesTouch is not affiliated with, endorsed by, or sponsored by LinkedIn.
@@ -86,6 +86,8 @@ Verify the connection with a read-only request:
 - Read tools are non-destructive and idempotent.
 - Messages, invitations, likes, comments, and publications modify LinkedIn and
   are non-idempotent.
+- These write tools accept `scheduled_for`; SalesTouch persists the action and
+  reconnects a sleeping credential-based account when execution becomes due.
 - Cancelling a queued action modifies SalesTouch state and cannot be assumed
   idempotent.
 - Availability depends on an active SalesTouch plan, a connected LinkedIn
