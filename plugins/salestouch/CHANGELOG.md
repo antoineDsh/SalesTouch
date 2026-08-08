@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.7.1 - 2026-08-08
+
+- Add `feedback_submit` so agents can send bug reports, feature requests, and
+  general feedback to the SalesTouch team through PostHog Conversations.
+
 ## 0.7.0 - 2026-08-08
 
 - Add account-aware Sales Navigator filter discovery for locations,
