@@ -1,6 +1,6 @@
 # SalesTouch
 
-![Version 0.6.0](https://img.shields.io/badge/version-0.6.0-111827)
+![Version 0.7.0](https://img.shields.io/badge/version-0.7.0-111827)
 ![License MIT](https://img.shields.io/badge/license-MIT-16a34a)
 
 SalesTouch is an AI-native GTM prospecting platform. It helps agents research
@@ -94,6 +94,13 @@ then authorize `linkedin_message` only after reviewing the recipient and text.
 
 Extract reactions or comments from a post, inspect the bounded preview, and
 page through the stored result with `scrape_result_page`.
+
+### Sales Navigator audience
+
+Resolve account-specific filters with `linkedin_sales_navigator_search_parameters`,
+extract companies or people with the corresponding structured scrape tool, and
+pass a company result id to `scrape_sales_navigator_people` when the lead search
+must be restricted to those companies.
 
 ## Troubleshooting and limitations
 

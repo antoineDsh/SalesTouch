@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.7.0 - 2026-08-08
+
+- Add account-aware Sales Navigator filter discovery for locations,
+  industries, companies, job titles, lists, and other enumerated fields.
+- Add structured Sales Navigator people and company extraction with bounded
+  previews, pagination, and signed CSV/JSONL exports.
+- Chain stored company results into people searches in validated batches so
+  agents can target roles only inside the companies they just found.
+
 ## 0.6.0 - 2026-08-07
 
 - Add durable `scheduled_for` support to LinkedIn messages, invitations,

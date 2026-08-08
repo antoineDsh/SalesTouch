@@ -1,6 +1,6 @@
 # SalesTouch
 
-![Version 0.6.0](https://img.shields.io/badge/version-0.6.0-111827)
+![Version 0.7.0](https://img.shields.io/badge/version-0.7.0-111827)
 ![License MIT](https://img.shields.io/badge/license-MIT-16a34a)
 
 SalesTouch is an AI-native GTM prospecting platform. It helps agents research
@@ -73,7 +73,14 @@ Verify the connection with a read-only request:
 3. Ask the agent to draft a reply without sending.
 4. Confirm the recipient and exact text, then authorize `linkedin_message`.
 
-### 3. Turn post engagement into a paginated result
+### 3. Build a Sales Navigator audience from structured filters
+
+1. Resolve ambiguous filter values with `linkedin_sales_navigator_search_parameters`.
+2. Run `scrape_sales_navigator_companies` or `scrape_sales_navigator_people` with the returned ids.
+3. To restrict people to extracted companies, pass the company `result_id` to `scrape_sales_navigator_people` as `company_result_id`.
+4. Inspect the bounded preview, page with `scrape_result_page`, or use the signed CSV/JSONL export.
+
+### 4. Turn post engagement into a paginated result
 
 1. Provide a LinkedIn post URL.
 2. Run `scrape_linkedin_post_reactions` or
