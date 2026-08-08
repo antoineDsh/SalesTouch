@@ -1,6 +1,6 @@
 # SalesTouch
 
-![Version 0.7.1](https://img.shields.io/badge/version-0.7.1-111827)
+![Version 0.8.0](https://img.shields.io/badge/version-0.8.0-111827)
 ![License MIT](https://img.shields.io/badge/license-MIT-16a34a)
 
 SalesTouch is an AI-native GTM prospecting platform. It helps agents research

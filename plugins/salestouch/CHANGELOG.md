@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.8.0 - 2026-08-08
+
+- Upgrade the remote server to the stateless MCP `2026-07-28` protocol with
+  native discovery and no protocol-session lifecycle.
+- Keep related tool calls in one PostHog analytics session through the
+  agent-carried `conversation_id` and capture explicit business intent.
+- Advertise `get_more_tools` so agents can report capabilities needed to
+  complete unsupported user goals without triggering a LinkedIn action.
+- Separate the PostHog session handle from LinkedIn's
+  `linkedin_conversation_id` and remove the legacy extraction context field.
+
 ## 0.7.1 - 2026-08-08
 
 - Add `feedback_submit` so agents can send bug reports, feature requests, and
