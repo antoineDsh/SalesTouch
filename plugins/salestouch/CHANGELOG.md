@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.9.1 - 2026-09-25
+
+- Get started with current Claude installation steps and a guide in six languages.
+- Access setup, support, security and license files directly from the installed plugin.
+- Keep technical MCP analytics without sending conversation goals or tool payloads to analytics.
+
+## 0.9.0 - 2026-08-09
+
+- Add explicit LinkedIn inbox discovery with readable tags for Classic, Sales
+  Navigator, and company inboxes without exposing provider inbox IDs.
+- Add exact stateless pagination across the merged global conversation feed,
+  with optional inbox-tag filtering and deterministic inbox sorting.
+- Align LinkedIn search, messaging, account authentication, and webhook
+  contracts with Unipile v2.
+
 ## 0.8.0 - 2026-08-08
 
 - Upgrade the remote server to the stateless MCP `2026-07-28` protocol with
@@ -47,7 +62,7 @@
 
 ## 0.5.8 - 2026-07-30
 
-- Position SalesTouch as an AI-native GTM prospecting platform across MCP and
+- Position SalesTouch as the LinkedIn MCP for AI agents across MCP and
   marketplace metadata.
 - Prepare the OpenAI submission under Business & Operations with an accurate
   standalone-product and third-party integration disclosure.

@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.salestouch/salestouch",
   "title": "SalesTouch",
-  "description": "Give AI agents the LinkedIn tools to find, qualify, engage, and follow up with prospects.",
-  "version": "0.8.0",
+  "description": "The LinkedIn MCP for AI agents. Connect any MCP-compatible agent to LinkedIn search, research, messaging, publishing, follow-ups, queues, and account controls.",
+  "version": "0.9.1",
   "websiteUrl": "https://www.salestouch.io",
   "repository": {
     "url": "https://github.com/antoineDsh/salestouch",

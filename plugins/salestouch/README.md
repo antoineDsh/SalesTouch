@@ -1,122 +1,69 @@
 # SalesTouch
 
-![Version 0.8.0](https://img.shields.io/badge/version-0.8.0-111827)
-![License MIT](https://img.shields.io/badge/license-MIT-16a34a)
+![Version 0.9.1](https://img.shields.io/badge/version-0.9.1-111827)
 
-SalesTouch is an AI-native GTM prospecting platform. It helps agents research
-and qualify prospects, build audiences, start conversations, manage follow-ups,
-and execute controlled LinkedIn outreach. This Claude plugin connects to the
-OAuth-protected SalesTouch remote server and exposes account, conversation,
-lookup, outreach, engagement, publishing, durable scheduling, queue, and paginated extraction
-tools.
+[English](README.md) · [Français](docs/fr.md) · [Deutsch](docs/de.md) · [Español](docs/es.md) · [Português](docs/pt.md) · [Italiano](docs/it.md)
 
-SalesTouch is not affiliated with, endorsed by, or sponsored by LinkedIn.
+**LinkedIn outreach for AI agents.** SalesTouch is a LinkedIn MCP that connects
+Claude to prospect research, conversations, messaging, publishing, follow-ups
+and queues. SalesTouch is not affiliated with or endorsed by LinkedIn.
 
-## Install
+## Requirements
 
-### Claude Desktop or Cowork
+Use a SalesTouch workspace with an active plan and a connected LinkedIn account.
+Sales Navigator features require the corresponding account access. Results
+remain subject to permissions, source availability and platform limits.
 
-1. Open `Customize` → `Add a plugin` → `Create a plugin` →
-   `Add a marketplace`.
-2. Add `antoinedsh/salestouch`.
-3. Enable `salestouch` from the `Personal` tab.
-4. Run `/mcp` and complete the browser authorization.
+## Install in Claude Code
 
-### Claude Code
+Run these commands in Claude Code:
 
 ```text
-/plugin marketplace add antoinedsh/salestouch
+/plugin marketplace add antoineDsh/SalesTouch
 /plugin install salestouch@salestouch
-/mcp
 ```
 
-### Manual MCP configuration
+Restart Claude Code to load the plugin, then run `/mcp`, choose SalesTouch and
+complete the browser authorization. No LinkedIn password, cookie or API key
+belongs in the conversation or plugin configuration.
 
-```json
-{
-  "mcpServers": {
-    "salestouch": {
-      "type": "http",
-      "url": "https://www.salestouch.io/api/mcp",
-      "headers": {
-        "Accept": "application/json, text/event-stream"
-      },
-      "oauth": {
-        "authServerMetadataUrl": "https://www.salestouch.io/.well-known/oauth-authorization-server/api/auth"
-      }
-    }
-  }
-}
-```
+## Install in Claude Desktop or Cowork
 
-Do not add a LinkedIn password, cookie, token, or API secret. Claude receives
-only the scoped SalesTouch OAuth authorization.
+Open **Customize → Plugins**. In **Personal plugins**, select **+ → Add
+marketplace**, choose the repository option and enter `antoineDsh/SalesTouch`.
+Install and enable `salestouch`, then authorize its SalesTouch connector.
+Available controls depend on your Claude plan and organization settings.
 
-## Supported workflows
+## Three prompts to start
 
-- List connected LinkedIn accounts.
-- List, search, and read conversations.
-- Read the authenticated feed.
-- Look up profiles, companies, profile posts, and individual posts.
-- Inspect invitation follow-ups and queued message state.
-- Send messages, invitations, and post-acceptance follow-ups.
-- Like or comment on posts and publish posts.
-- Schedule any LinkedIn write with `scheduled_for` and inspect its durable queue state.
-- Cancel queued SalesTouch actions.
-- Extract people from searches, post engagement, groups, profile viewers, and
-  company page viewers.
-- Read stored extraction results page by page.
+1. "List my connected LinkedIn accounts with SalesTouch."
+2. "Research this LinkedIn profile and its recent posts, then draft a relevant
+   introduction without sending it: [profile URL]."
+3. "Read this LinkedIn conversation, summarize what the prospect needs, and
+   draft a reply without sending it: [conversation ID or profile URL]."
 
-## Response contract
+Replace bracketed values with your own targets. You can also extract search
+results or post engagement, page through stored results and download exports.
+Review the exact recipient, content and time before approving a message,
+invitation, comment, publication or scheduled action. Pending means queued,
+not delivered. Inspect the queue before retrying a write.
 
-Each tool exposes a strict input schema, tool annotations, and an output
-schema. Successful calls return MCP `structuredContent` and temporarily retain
-the equivalent JSON text content for compatibility. Errors use
-`{code, message, retryable}` without internal provider metadata.
+## Connection and support
 
-Read tools are non-destructive and idempotent. Messages, invitations, likes,
-comments, publications, and queue cancellation mutate state and should run
-only after the user verifies the exact target and content.
+The remote MCP endpoint is `https://www.salestouch.io/api/mcp`, using Streamable
+HTTP and OAuth. If authorization fails, reconnect the SalesTouch connector,
+verify your workspace and LinkedIn connection, then retry the account prompt.
+Share only a safe error code and reproduction steps with support, without
+credentials, tokens or private messages.
 
-## Example workflows
+- [Setup](SETUP.md) · [Support](https://www.salestouch.io/support) · [Security](SECURITY.md)
+- [Documentation](https://www.salestouch.io/docs) · [Privacy](https://www.salestouch.io/privacy) · [Terms](https://www.salestouch.io/terms)
+- [support@salestouch.io](mailto:support@salestouch.io)
 
-### Lead research
+The plugin files use the [MIT license](LICENSE). The hosted backend is proprietary.
 
-Look up a profile, read recent posts, and draft a tailored message without
-sending it.
+## Version 0.9.1
 
-### Conversation reply
-
-Find a conversation by profile URL, read its latest messages, draft a reply,
-then authorize `linkedin_message` only after reviewing the recipient and text.
-
-### Post engagement extraction
-
-Extract reactions or comments from a post, inspect the bounded preview, and
-page through the stored result with `scrape_result_page`.
-
-### Sales Navigator audience
-
-Resolve account-specific filters with `linkedin_sales_navigator_search_parameters`,
-extract companies or people with the corresponding structured scrape tool, and
-pass a company result id to `scrape_sales_navigator_people` when the lead search
-must be restricted to those companies.
-
-## Troubleshooting and limitations
-
-Reconnect OAuth if authorization expires. Confirm that the workspace has an
-active plan and a connected LinkedIn account, then test `linkedin_accounts`.
-Availability and results depend on platform access, permissions, rate limits,
-and source data. SalesTouch does not bypass LinkedIn safeguards.
-
-- [Setup](../../SETUP.md)
-- [Support](../../SUPPORT.md)
-- [Security](../../SECURITY.md)
-- [Documentation](https://www.salestouch.io/docs)
-- [Privacy](https://www.salestouch.io/privacy)
-- [Terms](https://www.salestouch.io/terms)
-- Email: [support@salestouch.io](mailto:support@salestouch.io)
-
-This public distribution wrapper is licensed under the
-[MIT License](../../LICENSE). The hosted SalesTouch backend remains
-proprietary.
+Updated installation guidance in six languages; setup and support files included
+in the package; technical MCP analytics without conversation goals or tool
+payloads. See the [changelog](CHANGELOG.md).

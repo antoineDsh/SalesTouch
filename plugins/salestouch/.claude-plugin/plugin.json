@@ -1,7 +1,7 @@
 {
   "name": "salestouch",
-  "version": "0.8.0",
-  "description": "Turn your AI agent into a LinkedIn prospecting operator. Find and qualify the right people, start conversations, manage follow-ups, and turn outreach into real opportunities.",
+  "version": "0.9.1",
+  "description": "Connect Claude and other AI agents to LinkedIn search, research, messaging, publishing, follow-ups, queues, and account controls through one MCP.",
   "author": {
     "name": "SalesTouch",
     "email": "support@salestouch.io",
@@ -10,7 +10,7 @@
   "homepage": "https://www.salestouch.io/docs",
   "repository": "https://github.com/antoineDsh/salestouch",
   "license": "MIT",
-  "keywords": ["sales", "linkedin", "prospecting", "mcp"],
+  "keywords": ["linkedin", "connector", "ai-agents", "mcp"],
   "hooks": "./hooks/hooks.json",
   "mcpServers": "./.mcp.json"
 }

@@ -1,13 +1,13 @@
 # SalesTouch
 
-![Version 0.8.0](https://img.shields.io/badge/version-0.8.0-111827)
+![Version 0.9.1](https://img.shields.io/badge/version-0.9.1-111827)
 ![License MIT](https://img.shields.io/badge/license-MIT-16a34a)
 
-SalesTouch is an AI-native GTM prospecting platform. It helps agents research
-and qualify prospects, build audiences, start conversations, manage follow-ups,
-and execute controlled LinkedIn outreach. It provides account, conversation,
-lookup, outreach, engagement, publishing, durable scheduling, queue, and paginated extraction tools
-through an OAuth-protected remote endpoint.
+SalesTouch is the LinkedIn MCP for AI agents. It connects Claude, Codex,
+ChatGPT, Cursor, and other MCP-compatible agents to LinkedIn search, research,
+conversations, messaging, engagement, publishing, durable scheduling, queues,
+account controls, and paginated extraction through an OAuth-protected remote
+endpoint.
 
 SalesTouch is not affiliated with, endorsed by, or sponsored by LinkedIn.
 
@@ -15,8 +15,8 @@ SalesTouch is not affiliated with, endorsed by, or sponsored by LinkedIn.
 
 ### Claude Desktop, Cowork, or Claude Code
 
-In Claude Desktop or Cowork, add the marketplace `antoinedsh/salestouch`, then
-enable the `salestouch` plugin and complete OAuth from `/mcp`.
+See the [Claude installation guide](plugins/salestouch/README.md), available in
+English, French, German, Spanish, Brazilian Portuguese and Italian.
 
 In Claude Code:
 
@@ -57,12 +57,12 @@ Verify the connection with a read-only request:
 
 > List the LinkedIn accounts connected to my SalesTouch workspace.
 
-## Three complete workflows
+## Example workflows
 
 ### 1. Research a lead without changing external state
 
 1. Ask SalesTouch to look up a profile URL.
-2. Ask for the profile's recent posts.
+2. Ask for the profile's recent posts, then continue with `next_cursor` when older history is needed.
 3. Ask the agent to summarize useful context and draft a message.
 4. Review the draft; no message is sent until a mutation tool is authorized.
 
@@ -84,9 +84,10 @@ Verify the connection with a read-only request:
 
 1. Provide a LinkedIn post URL.
 2. Run `scrape_linkedin_post_reactions` or
-   `scrape_linkedin_post_comments`.
+   `scrape_linkedin_post_comments`. Comment scraping extracts root commenters by default; pass `include_replies: true` only when reply authors are needed.
 3. Read the bounded preview and stored result id.
-4. Continue with `scrape_result_page` until the result is complete.
+4. If a comment result returns `source_paging.exhausted: false`, call `scrape_linkedin_post_comments` again with `source_paging.arguments` to continue the LinkedIn source extraction in the same reply mode. Large sources pause automatically after a bounded provider-request budget, so a call may return fewer profiles than `limit` without losing progress.
+5. Use `scrape_result_page` only to page through profiles already stored by one scrape call.
 
 ## Safety and limitations
 
