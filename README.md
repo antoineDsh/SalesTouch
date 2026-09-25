@@ -116,8 +116,6 @@ data into a support request.
 - [Getting started](https://www.salestouch.io/docs/getting-started)
 - [Authentication and scopes](https://www.salestouch.io/docs/authentication)
 - [Troubleshooting](https://www.salestouch.io/docs/troubleshooting)
-- [OpenAI plugin submission](OPENAI_PLUGIN_SUBMISSION.md)
-- [Claude directory submission](CLAUDE_DIRECTORY_SUBMISSION.md)
 - [Support](SUPPORT.md)
 - [Security](SECURITY.md)
 - [Privacy](https://www.salestouch.io/privacy)
