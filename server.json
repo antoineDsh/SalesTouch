@@ -3,7 +3,7 @@
   "name": "io.salestouch/salestouch",
   "title": "SalesTouch",
   "description": "The LinkedIn MCP for AI agents. Connect any MCP-compatible agent to LinkedIn search, research, messaging, publishing, follow-ups, queues, and account controls.",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "websiteUrl": "https://www.salestouch.io",
   "repository": {
     "url": "https://github.com/antoineDsh/salestouch",

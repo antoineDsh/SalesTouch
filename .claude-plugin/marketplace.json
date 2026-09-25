@@ -6,12 +6,12 @@
   },
   "metadata": {
     "description": "The LinkedIn MCP for AI agents. Connect any MCP-compatible agent to LinkedIn tools through one controlled connector.",
-    "version": "0.9.1"
+    "version": "0.9.2"
   },
   "plugins": [
     {
       "name": "salestouch",
-      "version": "0.9.1",
+      "version": "0.9.2",
       "description": "Connect Claude and other AI agents to LinkedIn search, research, messaging, publishing, follow-ups, queues, and account controls through one MCP.",
       "author": {
         "name": "SalesTouch"

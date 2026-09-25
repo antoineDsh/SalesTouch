@@ -1,6 +1,6 @@
 # SalesTouch
 
-![Version 0.9.1](https://img.shields.io/badge/version-0.9.1-111827)
+![Version 0.9.2](https://img.shields.io/badge/version-0.9.2-111827)
 
 [English](README.md) · [Français](docs/fr.md) · [Deutsch](docs/de.md) · [Español](docs/es.md) · [Português](docs/pt.md) · [Italiano](docs/it.md)
 
@@ -61,6 +61,10 @@ credentials, tokens or private messages.
 - [support@salestouch.io](mailto:support@salestouch.io)
 
 The plugin files use the [MIT license](LICENSE). The hosted backend is proprietary.
+
+## Version 0.9.2
+
+Fixed Claude Code sign-in by requesting only the OAuth scopes needed by the MCP.
 
 ## Version 0.9.1
 

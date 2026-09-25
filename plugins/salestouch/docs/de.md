@@ -39,6 +39,10 @@ Der entfernte MCP-Endpunkt ist `https://www.salestouch.io/api/mcp`, mit Streamab
 
 Die Plugin-Dateien stehen unter der [MIT-Lizenz](../LICENSE). Das gehostete Backend ist proprietär.
 
+## Version 0.9.2
+
+Claude-Code-Anmeldung korrigiert: Es werden nur die für MCP erforderlichen Berechtigungen angefordert.
+
 ## Version 0.9.1
 
 Aktualisierte Installationshilfe in sechs Sprachen; Einrichtung und Support im Paket; technische MCP-Analysen ohne Gesprächsziele oder Inhalte der Tool-Aufrufe. [Änderungsverlauf](../CHANGELOG.md).

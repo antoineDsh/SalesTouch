@@ -39,6 +39,10 @@ O endpoint MCP remoto é `https://www.salestouch.io/api/mcp`, com Streamable HTT
 
 Os arquivos do plugin usam a [licença MIT](../LICENSE). O backend hospedado é proprietário.
 
+## Versão 0.9.2
+
+Conexão com o Claude Code corrigida: apenas as permissões necessárias para o MCP são solicitadas.
+
 ## Versão 0.9.1
 
 Instalação atualizada em seis idiomas; configuração e suporte incluídos no pacote; analytics técnicos do MCP sem objetivos de conversa nem conteúdo das chamadas. [Histórico de alterações](../CHANGELOG.md).

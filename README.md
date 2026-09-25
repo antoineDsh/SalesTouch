@@ -1,6 +1,6 @@
 # SalesTouch
 
-![Version 0.9.1](https://img.shields.io/badge/version-0.9.1-111827)
+![Version 0.9.2](https://img.shields.io/badge/version-0.9.2-111827)
 ![License MIT](https://img.shields.io/badge/license-MIT-16a34a)
 
 SalesTouch is the LinkedIn MCP for AI agents. It connects Claude, Codex,

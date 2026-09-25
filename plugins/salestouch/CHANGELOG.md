@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.2 - 2026-09-25
+
+- Fix Claude Code sign-in by requesting only the OAuth scopes needed by the MCP.
+
 ## 0.9.1 - 2026-09-25
 
 - Get started with current Claude installation steps and a guide in six languages.
