@@ -23,6 +23,14 @@ Reinicia Claude Code, ejecuta `/mcp`, selecciona SalesTouch y autoriza la conexi
 
 Abre **Customize → Plugins**. En **Personal plugins**, selecciona **+ → Add marketplace**, elige la opción de repositorio e introduce `antoineDsh/SalesTouch`. Instala y activa `salestouch`, y autoriza su conector de SalesTouch. Las opciones disponibles dependen de tu plan de Claude y de la configuración de tu organización.
 
+## Cursor
+
+Clona este repositorio público en `~/.cursor/plugins/local/salestouch` y recarga Cursor. Abre **Settings → Tools & MCPs**, busca `salestouch`, pulsa **Connect** y autoriza SalesTouch en el navegador. Tu organización puede restringir los plugins locales. La inclusión en el marketplace está sujeta a la revisión de Cursor.
+
+También puedes añadir la [configuración MCP](../../../README.md#cursor) a `.cursor/mcp.json` para el proyecto o a `~/.cursor/mcp.json` para tu perfil. Completa la autorización enseguida: Cursor puede dejar de esperar tras 30 segundos. Si ocurre, vuelve a pulsar **Connect**. Empieza con el prompt de comprobación de cuentas que aparece abajo. Mantén activadas las aprobaciones de herramientas y revisa los destinatarios y el contenido antes de permitir acciones externas.
+
+El plugin MIT se instala gratis. El servicio alojado de SalesTouch requiere una suscripción aparte. No incluyas credenciales de LinkedIn en la configuración MCP.
+
 ## Tres prompts para empezar
 
 1. «Lista mis cuentas de LinkedIn conectadas con SalesTouch».
@@ -38,6 +46,10 @@ El endpoint MCP remoto es `https://www.salestouch.io/api/mcp`, con Streamable HT
 [Configuración](../SETUP.md) · [Soporte](https://www.salestouch.io/support) · [Seguridad](../SECURITY.md) · [Documentación](https://www.salestouch.io/docs) · [Privacidad](https://www.salestouch.io/privacy) · [Condiciones](https://www.salestouch.io/terms) · [support@salestouch.io](mailto:support@salestouch.io)
 
 Los archivos del plugin usan la [licencia MIT](../LICENSE). El backend alojado es propietario.
+
+## Versión 0.9.3
+
+Instala SalesTouch localmente en Cursor, conéctalo mediante OAuth y empieza comprobando las cuentas. El paquete de Cursor incluye ahora su logotipo e instrucciones más claras.
 
 ## Versión 0.9.2
 

@@ -1,9 +1,9 @@
 # SalesTouch
 
-![Version 0.9.2](https://img.shields.io/badge/version-0.9.2-111827)
+![Version 0.9.3](https://img.shields.io/badge/version-0.9.3-111827)
 ![License MIT](https://img.shields.io/badge/license-MIT-16a34a)
 
-SalesTouch is the LinkedIn MCP for AI agents. It connects Claude, Codex,
+**LinkedIn outreach for AI agents.** SalesTouch is a LinkedIn MCP connecting Claude, Codex,
 ChatGPT, Cursor, and other MCP-compatible agents to LinkedIn search, research,
 conversations, messaging, engagement, publishing, durable scheduling, queues,
 account controls, and paginated extraction through an OAuth-protected remote
@@ -28,8 +28,14 @@ In Claude Code:
 
 ### Cursor
 
-Install this repository as a Cursor plugin, or add the following remote MCP
-configuration:
+For local plugin installation, clone this public repository into
+`~/.cursor/plugins/local/salestouch`, then reload Cursor. Open **Settings →
+Tools & MCPs**, find `salestouch`, click **Connect**, and complete the SalesTouch
+OAuth flow in your browser. Local plugin availability depends on organization
+policy. Marketplace listing remains subject to Cursor review.
+
+Alternatively, add this remote MCP configuration to `.cursor/mcp.json` in your
+project or `~/.cursor/mcp.json` for your user profile:
 
 ```json
 {
@@ -40,6 +46,16 @@ configuration:
   }
 }
 ```
+
+Authorize promptly: Cursor may stop waiting after 30 seconds. If that happens,
+click **Connect** again and complete the new authorization flow. Once connected,
+use the read-only account prompt below. Keep tool approvals enabled and review
+recipients and content before allowing external actions.
+
+The MIT plugin is free to install. The hosted SalesTouch service requires a
+separate subscription. No LinkedIn credentials belong in the MCP configuration.
+
+[Français](plugins/salestouch/docs/fr.md#cursor) · [Deutsch](plugins/salestouch/docs/de.md#cursor) · [Español](plugins/salestouch/docs/es.md#cursor) · [Português](plugins/salestouch/docs/pt.md#cursor) · [Italiano](plugins/salestouch/docs/it.md#cursor)
 
 ### Any Streamable HTTP client
 

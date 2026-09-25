@@ -1,6 +1,6 @@
 # SalesTouch
 
-![Version 0.9.2](https://img.shields.io/badge/version-0.9.2-111827)
+![Version 0.9.3](https://img.shields.io/badge/version-0.9.3-111827)
 
 [English](README.md) · [Français](docs/fr.md) · [Deutsch](docs/de.md) · [Español](docs/es.md) · [Português](docs/pt.md) · [Italiano](docs/it.md)
 
@@ -34,6 +34,10 @@ marketplace**, choose the repository option and enter `antoineDsh/SalesTouch`.
 Install and enable `salestouch`, then authorize its SalesTouch connector.
 Available controls depend on your Claude plan and organization settings.
 
+## Cursor
+
+Follow the [Cursor installation guide](../../README.md#cursor) for local plugin installation, OAuth, and the remote MCP alternative. The MIT plugin is free to install; the hosted SalesTouch service requires a separate subscription.
+
 ## Three prompts to start
 
 1. "List my connected LinkedIn accounts with SalesTouch."
@@ -61,6 +65,10 @@ credentials, tokens or private messages.
 - [support@salestouch.io](mailto:support@salestouch.io)
 
 The plugin files use the [MIT license](LICENSE). The hosted backend is proprietary.
+
+## Version 0.9.3
+
+Install SalesTouch locally in Cursor, connect through OAuth, and start with the account check. Cursor packaging now includes its logo and clearer setup guidance.
 
 ## Version 0.9.2
 

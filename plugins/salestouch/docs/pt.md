@@ -23,6 +23,14 @@ Reinicie o Claude Code, execute `/mcp`, selecione SalesTouch e autorize a conex�
 
 Abra **Customize → Plugins**. Em **Personal plugins**, selecione **+ → Add marketplace**, escolha a opção de repositório e digite `antoineDsh/SalesTouch`. Instale e ative `salestouch` e autorize o conector SalesTouch. As opções disponíveis dependem do seu plano Claude e das configurações da organização.
 
+## Cursor
+
+Clone este repositório público em `~/.cursor/plugins/local/salestouch` e recarregue o Cursor. Abra **Settings → Tools & MCPs**, encontre `salestouch`, clique em **Connect** e autorize o SalesTouch no navegador. Sua organização pode restringir plugins locais. A inclusão no marketplace está sujeita à análise do Cursor.
+
+Você também pode adicionar a [configuração MCP](../../../README.md#cursor) em `.cursor/mcp.json` para o projeto ou `~/.cursor/mcp.json` para seu perfil. Conclua a autorização rapidamente: o Cursor pode parar de esperar após 30 segundos. Nesse caso, clique novamente em **Connect**. Comece com o prompt de verificação de contas abaixo. Mantenha as aprovações de ferramentas ativadas e revise destinatários e conteúdo antes de permitir ações externas.
+
+O plugin MIT é gratuito para instalar. O serviço hospedado do SalesTouch exige uma assinatura separada. Não inclua credenciais do LinkedIn na configuração MCP.
+
 ## Três prompts para começar
 
 1. “Liste minhas contas do LinkedIn conectadas com o SalesTouch.”
@@ -38,6 +46,10 @@ O endpoint MCP remoto é `https://www.salestouch.io/api/mcp`, com Streamable HTT
 [Configuração](../SETUP.md) · [Suporte](https://www.salestouch.io/support) · [Segurança](../SECURITY.md) · [Documentação](https://www.salestouch.io/docs) · [Privacidade](https://www.salestouch.io/privacy) · [Termos](https://www.salestouch.io/terms) · [support@salestouch.io](mailto:support@salestouch.io)
 
 Os arquivos do plugin usam a [licença MIT](../LICENSE). O backend hospedado é proprietário.
+
+## Versão 0.9.3
+
+Instale o SalesTouch localmente no Cursor, conecte-o por OAuth e comece verificando as contas. O pacote do Cursor agora inclui o logotipo e instruções mais claras.
 
 ## Versão 0.9.2
 

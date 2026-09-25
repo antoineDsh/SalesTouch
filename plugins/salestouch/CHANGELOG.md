@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.3 - 2026-09-25
+
+- Connect SalesTouch in Cursor with clear local installation and OAuth guidance in six languages.
+- Recognize the plugin with its bundled logo and updated LinkedIn outreach positioning.
+- See the free plugin and separate hosted service requirements before connecting.
+
 ## 0.9.2 - 2026-09-25
 
 - Fix Claude Code sign-in by requesting only the OAuth scopes needed by the MCP.

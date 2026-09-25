@@ -23,6 +23,14 @@ Riavvia Claude Code, esegui `/mcp`, scegli SalesTouch e autorizza il collegament
 
 Apri **Customize → Plugins**. In **Personal plugins**, seleziona **+ → Add marketplace**, scegli l’opzione repository e inserisci `antoineDsh/SalesTouch`. Installa e attiva `salestouch`, quindi autorizza il connettore SalesTouch. Le opzioni disponibili dipendono dal piano Claude e dalle impostazioni dell’organizzazione.
 
+## Cursor
+
+Clona questo repository pubblico in `~/.cursor/plugins/local/salestouch` e ricarica Cursor. Apri **Settings → Tools & MCPs**, trova `salestouch`, fai clic su **Connect** e autorizza SalesTouch nel browser. La tua organizzazione può limitare i plugin locali. L’inserimento nel marketplace è soggetto alla revisione di Cursor.
+
+Puoi anche aggiungere la [configurazione MCP](../../../README.md#cursor) in `.cursor/mcp.json` per il progetto oppure in `~/.cursor/mcp.json` per il tuo profilo. Completa rapidamente l’autorizzazione: Cursor può smettere di attendere dopo 30 secondi. In tal caso, fai nuovamente clic su **Connect**. Inizia con il prompt di verifica degli account riportato sotto. Mantieni attive le approvazioni degli strumenti e controlla destinatari e contenuti prima di autorizzare azioni esterne.
+
+L’installazione del plugin MIT è gratuita. Il servizio SalesTouch ospitato richiede un abbonamento separato. Non inserire credenziali LinkedIn nella configurazione MCP.
+
 ## Tre prompt per iniziare
 
 1. «Elenca i miei account LinkedIn collegati con SalesTouch.»
@@ -38,6 +46,10 @@ L’endpoint MCP remoto è `https://www.salestouch.io/api/mcp`, con Streamable H
 [Configurazione](../SETUP.md) · [Assistenza](https://www.salestouch.io/support) · [Sicurezza](../SECURITY.md) · [Documentazione](https://www.salestouch.io/docs) · [Privacy](https://www.salestouch.io/privacy) · [Condizioni](https://www.salestouch.io/terms) · [support@salestouch.io](mailto:support@salestouch.io)
 
 I file del plugin sono distribuiti con [licenza MIT](../LICENSE). Il backend ospitato è proprietario.
+
+## Versione 0.9.3
+
+Installa SalesTouch localmente in Cursor, collegalo tramite OAuth e inizia verificando gli account. Il pacchetto Cursor include ora il logo e istruzioni più chiare.
 
 ## Versione 0.9.2
 

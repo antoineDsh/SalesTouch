@@ -1,19 +1,29 @@
 {
   "name": "salestouch",
   "displayName": "SalesTouch",
-  "version": "0.9.2",
-  "description": "Connect Cursor and other AI agents to LinkedIn search, research, messaging, publishing, follow-ups, queues, and account controls through one MCP.",
+  "version": "0.9.3",
+  "description": "LinkedIn outreach for AI agents. Research prospects, manage conversations, and prepare personalized outreach with SalesTouch in Cursor.",
   "author": {
     "name": "SalesTouch",
     "email": "support@salestouch.io"
   },
   "publisher": "SalesTouch",
   "homepage": "https://www.salestouch.io",
-  "repository": "https://github.com/antoineDsh/salestouch",
+  "repository": "https://github.com/antoineDsh/SalesTouch",
   "license": "MIT",
-  "logo": "https://www.salestouch.io/images/icon.png",
-  "keywords": ["salestouch", "linkedin", "connector", "ai-agents", "mcp"],
+  "logo": "assets/icon.png",
+  "keywords": [
+    "salestouch",
+    "linkedin",
+    "connector",
+    "ai-agents",
+    "mcp"
+  ],
   "category": "business",
-  "tags": ["linkedin", "connector", "mcp"],
+  "tags": [
+    "linkedin",
+    "connector",
+    "mcp"
+  ],
   "mcpServers": "./.mcp.json"
 }
